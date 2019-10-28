@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FourmComponent } from './fourm.component';
+import { SubscribeComponent } from './subscribe.component';
 
-describe('FourmComponent', () => {
-  let component: FourmComponent;
-  let fixture: ComponentFixture<FourmComponent>;
+describe('SubscribeComponent', () => {
+  let component: SubscribeComponent;
+  let fixture: ComponentFixture<SubscribeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FourmComponent ]
+      declarations: [ SubscribeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FourmComponent);
+    fixture = TestBed.createComponent(SubscribeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
